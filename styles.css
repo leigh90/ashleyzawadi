@@ -11,6 +11,13 @@ body{
 .row {
     background-color: rgba(0, 0, 0, 0.4);
 }
+li{
+    font-family: 'Sacramento', cursive;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+
+}
 
 /* Heading */
 
@@ -73,7 +80,7 @@ h5{
     /* background-color: rgba( 255,255,255, 0.1) */
 }
 .tools img{
-    width: 10%;
+    width: 0em;
     /* margin:3%; */
 }
 /* gallery grid*/
@@ -111,4 +118,48 @@ h5{
       flex: 100%;
       max-width: 100%;
     }
+  }
+
+footer {
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-size: 1.8em;
+    color: white;
+    margin: auto;
+    text-align: center;
+    
+
+
+}
+footer a{
+    color: white;
+    float:left;
+    text-align: center;
+    margin-left: 10%;
+    text-align: center;
+
+
+}
+@media screen and (max-width: 600px) {
+    footer a{
+    float:left;
+    width: 100%;
+    display: block;
+
+    }
+  
+  }
+
+@media screen and (max-width: 768px)  {
+    footer a{
+    float:left;
+    width: 75%;
+    display: block;
+
+    }
+  
+  }
+a:hover {
+    color: white;
+    text-decoration: white;
+
   }
