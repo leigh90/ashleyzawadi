@@ -1,22 +1,28 @@
 /* Body */
+html{
+    width: 100%;
+    /* overflow: hidden; */
+    
+    
+}
 body{
+    width: 100vh;
     background-image: url("images/2.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
-    background-position: fixed;
+    background-position: center;
     font-family: 'Roboto Condensed', sans-serif;
     background-color: rgba(255, 255, 255, 0.5);
   
 }
+.main-container{
+    width: 100vw;
+    height: 100vh;
+}
 .row {
     background-color: rgba(0, 0, 0, 0.4);
-}
-li{
-    font-family: 'Sacramento', cursive;
-    color: white;
-    text-align: center;
-    font-size: 2em;
-
+    width: 100vw;
+    height: 100vh;
 }
 
 /* Heading */
@@ -26,16 +32,16 @@ li{
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 4%;
-    width: 100vw;
+
 }
 
 .name-heading h1{
     font-family: 'Sacramento', cursive;
     font-size: 10em;
     color: whitesmoke;
-    text-align: center;
-
-    
+    text-align: right;
+    float: right;
+   
 }
 
 .section-links{
@@ -76,15 +82,6 @@ h5{
     font-size: 2rem;
     text-align: center;
 }
-.tools{
-    /* background-color: rgba( 255,255,255, 0.1) */
-}
-.tools img{
-    width: 0em;
-    /* margin:3%; */
-}
-/* gallery grid*/
-/* responsive grid */
 .rowe {
     display: flex;
     flex-wrap: wrap;
